@@ -32,9 +32,7 @@ char	*ft_itoa(int n)
 	}
 	str = (char *)malloc(sizeof(char) * (num_digits + 1));
 	if (str == NULL)
-	{
 		return (NULL);
-	}
 	*(str + num_digits) = '\0';
 	while (num_digits--)
 	{

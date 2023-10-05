@@ -18,8 +18,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 	}
 	else
-	{
 		ft_memcpy(pdest, psrc, n);
-	}
 	return (dest);
 }
