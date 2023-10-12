@@ -16,6 +16,6 @@ This challenging experience not only enhances technical proficiency but also equ
 Take your time to navigate through the libft repository, experiment with the code, and smoothly integrate these efficient functions into your projects. If you encounter any challenges or have ideas for enhancements, your contributions are immensely valued 
 
 <h2>How to use</h2>
-This project is written in C and needs the gcc compiler. You can clone this repository, enter the project folder and run "make all". To use in your project include "#include "libft.h".
+This project is written in C and needs the gcc compiler. You can clone this repository, enter the project folder and run "make all". To use in your project include "#include "libft.h"".
 
 
