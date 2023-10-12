@@ -13,8 +13,9 @@ To undertake these tasks, a strong understanding of fundamental programming conc
 
 This challenging experience not only enhances technical proficiency but also equips programmers to tackle intricate challenges in the programming world. Constructing this essential library amplifies comprehension of C language intricacies, providing programmers with the confidence and expertise to excel as proficient programmers.
 
+Take your time to navigate through the libft repository, experiment with the code, and smoothly integrate these efficient functions into your projects. If you encounter any challenges or have ideas for enhancements, your contributions are immensely valued 
+
 <h2>How to use</h2>
 This project is written in C and needs the gcc compiler. You can clone this repository, enter the project folder and run "make all". To use in your project include "#include "libft.h".
 
 
-Take your time to navigate through the libft repository, experiment with the code, and smoothly integrate these efficient functions into your projects. If you encounter any challenges or have ideas for enhancements, your contributions are immensely valued 
