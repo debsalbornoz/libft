@@ -1,8 +1,6 @@
 <h1 align="center">Libft</h1>
 
-<p align="center">
-  <img src="![libfte](https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64)" alt="astronauta lendo">
-</p>
+![libfte](https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64)
 
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Status-Finished-green">
