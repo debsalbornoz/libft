@@ -17,7 +17,7 @@ Take your time to navigate through the libft repository, experiment with the cod
 
 <h2>Functions developed:</h2>
 
-<h3>Functions from Libc:</h3>
+<h3>Functions from standard libraries:</h3>
 
 •[ft_isalpha ](https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_isalpha.c) - checks for an alphabetic character.
 
