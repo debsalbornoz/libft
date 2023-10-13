@@ -1,10 +1,12 @@
 <h1 align="center">Libft</h1>
 
-![libfte](https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64)
 
-
+<div align="center">
+<img src="https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64">
+</div> 
+<div align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/Status-Finished-green">
-
+</div>
 <h2>About </h2>
 
 "Libft" is a C library developed by students from the 42 programming school. This project involves the recreation of various standard functions from the C library entirely from scratch, without relying on any pre-existing functions provided by the standard C library. In addition to replicating these essential functions, "Libft" also includes additional features such as memory manipulation, array searching and sorting, string manipulation, basic mathematical operations, and file handling.
