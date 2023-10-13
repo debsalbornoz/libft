@@ -63,7 +63,32 @@ Take your time to navigate through the libft repository, experiment with the cod
 
 •[ft_strdup](https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_strdup.c) -  returns a pointer to a new string which is a duplicate of the string s.  Memory for the new string is obtained with malloc(3)
 
+<h3>Additional functions:</h3>
+
+•[ft_substr](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_substr.c) - Allocates and returns a substringfrom the string ’s’.The substring begins at index ’start’ and is of maximum size ’len’.
+
+•[ft_strjoin](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_strjoin.c) - Allocates and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’
+
+•[ft_strtrim](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_strtrim.c) - Allocates and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.
+
+•[ft_split](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_split.c) - Allocates and returns an arrayof strings obtained by splitting ’s’ using the character ’c’ as a delimiter. The array end with a NULL pointer.
+
+•[ft_itoa](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_itoa.c) - Allocates and returns a stringrepresenting the integer received as an argument. Negative numbers are handled.
+
+•[ft_strmapi](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_strmapi.c) - Applies the function ’f’ to each character of thestring ’s’, and passing its index as first argumentto create a new string resulting from successive applications of ’f’.
+
+•[ft_striteri](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_striteri.c) - Applies the function ’f’ on each character of the string passed as argument, passing its index as first argument. Each character is passed by address to ’f’ to be modified if necessary.
+
+•[ft_putchar_fd](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_putchar_fd.c) - Outputs the character ’c’ to the given filedescriptor.
+
+•[ft_putstr_fd](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_putstr_fd.c) - Outputs the string ’s’ to the given file descriptor.
+
+•[ft_putendl_fd](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_putendl_fd.c) - Outputs the string ’s’ to the given file descriptor followed by a newline.
+
+•[ft_putnbr_fd](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_putnbr_fd.c) - Outputs the integer ’n’ to the given filedescriptor.
+
+
 <h2>How to use</h2>
-This project is written in C and needs the gcc compiler. You can clone this repository, enter the project folder and run "make all". To use in your project include "#include "libft.h"".
+This project is written in C and needs the gcc compiler. You can clone this repository and enter the project folder. The "libc functions" and "additional functions" folders were created for github organization, remove the two folders and place the functions in the same workspace. After that run "make all". To use in your project include "#include "libft.h"".
 
 
