@@ -9,7 +9,7 @@
 </div>
 <h2>About </h2>
 
-"Libft" is a C library developed by students from the 42 programming school. This project involves the recreation of various standard functions from the C library entirely from scratch, without relying on any pre-existing functions provided by the standard C library. In addition to replicating these essential functions, "Libft" also includes additional features such as memory manipulation, array searching and sorting, string manipulation, basic mathematical operations, and file handling.
+"Libft" is a C library developed by students from the 42 programming school. This project involves the recreation of various functions from the C standard libraries entirely from scratch, without relying on any pre-existing functions. In addition to replicating these essential functions, "Libft" also includes additional features such as memory manipulation, array searching and sorting, string manipulation, basic mathematical operations, and file handling.
 
 To undertake these tasks, a strong understanding of fundamental programming concepts, such as conditional logic, loops, and data structures, is crucial. The primary objective of this project is to gain a better understanding of basic C operations while enhancing problem-solving and programming skills. Building "Libft" requires efficiency and precision, adhering strictly to the guidelines and standards outlined by 42.
 
@@ -91,6 +91,32 @@ Take your time to navigate through the libft repository, experiment with the cod
 
 
 <h2>How to use</h2>
-This project is written in C and needs the gcc compiler. You can clone this repository and enter the project folder. The "libc functions" and "additional functions" folders were created for github organization, remove the two folders and place the functions in the same workspace. After that run "make all". To use in your project include "#include "libft.h"".
+
+•Clone the repository
+
+```
+git clone https://github.com/debsalbornoz/libft.git
+```
+
+•Enter the project folder. The "standard functions" and "additional functions" folders were created for github organization, remove the two folders and place the functions in the same workspace.
+
+•Run:
+
+"make all" - compiles all files and create the library(libft.a).
+
+"make re" - remove all files and recompile the project.
+
+"make clean" - remove the temporary files.
+
+"make flean" - remove all the files created leaving only the originals files.
+
+•To use the library in your project include 
+
+```
+#include "libft.h"
+```
+
+> [!IMPORTANT]
+> This project is written in C and needs the cc compiler.
 
 
