@@ -90,7 +90,13 @@ Take your time to navigate through the libft repository, experiment with the cod
 •[ft_putnbr_fd](https://github.com/debsalbornoz/libft/blob/main/Additional%20functions/ft_putnbr_fd.c) - Outputs the integer ’n’ to the given filedescriptor.
 
 
-<h2>How to use</h2>
+<h2>Usage</h2>
+
+<h3> Requirements:</h3>
+
+This project is written in C and needs the cc compiler.
+
+<h3>Instructions</h3>
 
 •Clone the repository
 
@@ -115,8 +121,5 @@ git clone https://github.com/debsalbornoz/libft.git
 ```
 #include "libft.h"
 ```
-
-> [!IMPORTANT]
-> This project is written in C and needs the cc compiler.
 
 
