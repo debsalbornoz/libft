@@ -1,5 +1,7 @@
 #include "libft.h"
 
+//Writes the string 's' to the file descriptor specified.
+
 void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;

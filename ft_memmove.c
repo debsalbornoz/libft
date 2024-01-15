@@ -1,5 +1,8 @@
 #include "libft.h"
 
+/*Copies the first n bytes from the memory region pointed to by src to the memory region pointed to by dest.
+It handles overlapping regions correctly by copying safely, even if the source and destination regions overlap.*/
+
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char *pdest;
@@ -7,8 +10,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 	pdest = (unsigned char *)dest;
 	psrc = (const unsigned char *)src;
-	
-	// If source overlaps destination, copy in reverse order
 	if (psrc < pdest)
 	{
 		while (n > 0)
@@ -18,7 +19,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 	}
 	else
-		ft_memcpy(pdest, psrc, n); // Copy normally if no overlap
-	// Returns a pointer to the destination memory area 
+		ft_memcpy(pdest, psrc, n);
 	return (dest);
 }

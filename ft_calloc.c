@@ -1,21 +1,23 @@
 #include "libft.h"
 
+//Allocates and returns a zero-initialized memory region to store a specific number of elements of a given size.
+
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*str; 
 	size_t	total;  
 
 	str = NULL;
-	total = size * nmemb;  // Calculate the total size of the memory block
+	total = size * nmemb;
 
-	// Check for potential overflow during multiplication
+	// Check for potential overflow
 	if (total != 0 && total / size != nmemb)
-		return (NULL); // Return NULL if overflow is detected
+		return (NULL);
 
-	// Allocate memory for the block of size 'total'
+	// Allocate memory for the block 
 	str = malloc(total);
 	if (!str)
-		return (NULL); // Return NULL if memory allocation fails
+		return (NULL);
 
 	// Initialize the allocated memory block with zeros using ft_bzero function
 	ft_bzero(str, total);
