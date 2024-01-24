@@ -29,6 +29,6 @@ int ft_atoi(const char *nptr)
         result = result * 10 + (nptr[i] - '0');
         i++;
     }
-	// Return the final result considering the sign
+	// Return the final result
     return (result * sign); 
 }

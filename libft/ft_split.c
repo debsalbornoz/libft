@@ -17,7 +17,9 @@ char	**ft_split(char const *s, char c)
 	j = 0;
 	start = 0;
 	end = 0;
+	// Allocate memory for the array of strings
 	str_array = malloc((count_words(s,c) + 1) * sizeof(char *));
+	//Find the start and end of each substring
 	while(s[i] != '\0')
 	{
 		while(s[i] == c && s[i] != '\0')
@@ -28,12 +30,14 @@ char	**ft_split(char const *s, char c)
 		end = i;
 		if(end > start)
 		{
+			// Allocate memory for the substring and copy it
 			str_array[j] = malloc((end - start + 1) * sizeof(char));
 			ft_strncpy(str_array[j], &s[start], end - start);
 			j++;
 		}
 	}
 	str_array[j] = NULL;
+	// Return the resulting array of strings
 	return(str_array);
 }
 

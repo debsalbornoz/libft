@@ -1,5 +1,8 @@
 #include "libft.h"
 
+/*Searches for the last occurrence of a specified character in a given string.
+ It returns a pointer to the located character within the string, or NULL if the character is not found.*/
+ 
 char	*ft_strrchr(const char *s, int c)
 {
 	size_t	len_s;

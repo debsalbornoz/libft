@@ -6,9 +6,8 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t src_len;
 
 	i = 0;
-	src_len = ft_strlen(src);  // Calculate the length of the source string
+	src_len = ft_strlen(src); 
 
-	// Handle cases where destination or source pointers are NULL
 	if (dst == NULL || src == NULL)
 		return (0);
 	// If size is 0, return the length of the source string
@@ -23,7 +22,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		dst++;
 		i++;
 	}
-	*dst = '\0';  // Null-terminate the destination string
+	*dst = '\0';
 
 	// Return the total length of the source string
 	return (src_len);
