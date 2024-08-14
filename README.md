@@ -72,7 +72,7 @@ Reserve um tempo para explorar o repositório do libft, experimentar o código e
 
 •[ft_atoi](https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_atoi.c) - Converts a string in a int.
 
-•[ft_calloc](https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_calloc.c) - Alocates memory and sets the memory to zero.
+•[ft_calloc]([https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_calloc.c) - Alocates memory and sets the memory to zero.
 
 <h3>Additional functions:</h3>
 
