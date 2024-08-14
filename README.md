@@ -7,18 +7,18 @@
 <div align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/Status-Finished-green">
 </div>
-<h2>About </h2>
+<h2>Sobre </h2>
 
-"Libft" is a C library developed for a project at the 42 programming school. This project involves the recreation of various functions from the C standard libraries entirely from scratch, without relying on any pre-existing functions. In addition to replicating these essential functions, "Libft" also includes additional features such as memory manipulation, array searching and sorting, string manipulation, basic mathematical operations, and file handling.
+"Libft" é uma biblioteca desenvolvida em C para um projeto na escola de programação 42. Este projeto envolve a recriação de várias funções das bibliotecas padrão C inteiramente do zero, sem depender de funções pré-existentes. Além de replicar essas funções essenciais, "Libft" também inclui recursos adicionais, como manipulação de memória, busca e ordenação de arrays, manipulação de strings, operações matemáticas básicas e manipulação de arquivos.
 
-To undertake these tasks, a strong understanding of fundamental programming concepts, such as conditional logic, loops, and data structures, is crucial. The primary objective of this project is to gain a better understanding of basic C operations while enhancing problem-solving and programming skills. Building "Libft" requires efficiency and precision, adhering strictly to the guidelines and standards outlined by 42.
+Para realizar essas tarefas, é crucial ter um forte entendimento dos conceitos fundamentais de programação como lógica condicional, loops e estruturas de dados. O objetivo principal deste projeto é obter uma melhor compreensão das operações básicas em C enquanto aprimora as habilidades de resolução de problemas e programação. Construir a "Libft" exige eficiência e precisão, aderindo estritamente às diretrizes e padrões estabelecidos pela 42.
 
-Take your time to navigate through the libft repository, experiment with the code, and smoothly integrate these functions into your projects. If you encounter any challenges or have ideas for enhancements, your contributions are immensely valued!
+Reserve um tempo para explorar o repositório do libft, experimentar o código e integrar essas funções nos seus projetos. Se você encontrar desafios ou tiver ideias para aprimoramentos, suas contribuições são imensamente valorizadas!
 
-<h2>Functions developed:</h2>
+<h2>Funções desenvolvidas :</h2>
 
 
-<h3>Functions from &lt;ctype.h&gt; library : </h3>
+<h3>Funções da biblioteca &lt;ctype.h&gt; : </h3>
 
 
 •[ft_isalpha ](https://github.com/debsalbornoz/libft/blob/main/Libc%20functions/ft_isalpha.c) - Checks for an alphabetic character.
