@@ -18,6 +18,26 @@ Reserve um tempo para explorar o repositório do libft, experimentar o código e
 <h2>Funções desenvolvidas :</h2>
 
 
+<h1 align="center">Libft</h1>
+
+
+<div align="center">
+<img src="https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64">
+</div> 
+<div align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/Status-Finished-green">
+</div>
+<h2>Sobre </h2>
+
+"Libft" é uma biblioteca desenvolvida em C para um projeto na escola de programação 42. Este projeto envolve a recriação de várias funções das bibliotecas padrão C inteiramente do zero, sem depender de funções pré-existentes. Além de replicar essas funções essenciais, "Libft" também inclui recursos adicionais, como manipulação de memória, busca e ordenação de arrays, manipulação de strings, operações matemáticas básicas e manipulação de arquivos.
+
+Para realizar essas tarefas, é crucial ter um forte entendimento dos conceitos fundamentais de programação como lógica condicional, loops e estruturas de dados. O objetivo principal deste projeto é obter uma melhor compreensão das operações básicas em C enquanto aprimora as habilidades de resolução de problemas e programação. Construir a "Libft" exige eficiência e precisão, aderindo estritamente às diretrizes e padrões estabelecidos pela 42.
+
+Reserve um tempo para explorar o repositório da libft, experimentar o código e integrar essas funções nos seus projetos. Se você encontrar desafios ou tiver ideias para aprimoramentos, suas contribuições são imensamente valorizadas!
+
+<h2>Funções desenvolvidas :</h2>
+
+
 <h3>Funções da biblioteca &lt;ctype.h&gt; : </h3>
 
 
@@ -129,5 +149,8 @@ git clone https://github.com/debsalbornoz/libft.git
 ```
 #include "libft.h"
 ```
+
+
+
 
 
