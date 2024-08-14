@@ -63,11 +63,11 @@ Reserve um tempo para explorar o repositório do libft, experimentar o código e
 - **[ft_putendl_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putendl_fd.c)** - Envia uma string para o descritor de arquivo fornecido seguida de uma nova linha.
 - **[ft_putnbr_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putnbr_fd.c)** - Envia um inteiro para o descritor de arquivo fornecido.
 
-## Uso
+## Como usar
 
 ### Requisitos:
 
-Este projeto é escrito em C e precisa do compilador cc.
+Este projeto é escrito em C e precisa do compilador cc ou gcc.
 
 ### Instruções
 
