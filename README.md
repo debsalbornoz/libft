@@ -1,91 +1,121 @@
 <h1 align="center">Libft</h1>
 
-
 <div align="center">
 <img src="https://github.com/debsalbornoz/libft/assets/119970138/22b14898-85a2-431d-b58f-dd4aa7fb2a64">
-</div> 
+</div>
+
 <div align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/Status-Finished-green">
+<img alt="Static Badge" src="https://img.shields.io/badge/42-Project-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/Language-C-lightgrey">
 </div>
-<h2>Sobre </h2>
 
-"Libft" é uma biblioteca desenvolvida em C para um projeto na escola de programação 42. Este projeto envolve a recriação de várias funções das bibliotecas padrão C inteiramente do zero, sem depender de funções pré-existentes. Além de replicar essas funções essenciais, "Libft" também inclui recursos adicionais, como manipulação de memória, busca e ordenação de arrays, manipulação de strings, operações matemáticas básicas e manipulação de arquivos.
+## About
 
-Para realizar essas tarefas, é crucial ter um forte entendimento dos conceitos fundamentais de programação como lógica condicional, loops e estruturas de dados. O objetivo principal deste projeto é obter uma melhor compreensão das operações básicas em C enquanto aprimora as habilidades de resolução de problemas e programação. Construir a "Libft" exige eficiência e precisão, aderindo estritamente às diretrizes e padrões estabelecidos pela 42.
+**Libft** is a custom C library built as a project for **42 School**. It involves recreating a wide range of standard C library functions entirely from scratch, without relying on any pre-existing implementations.
 
-Reserve um tempo para explorar o repositório do libft, experimentar o código e integrar essas funções nos seus projetos. Se você encontrar desafios ou tiver ideias para aprimoramentos, suas contribuições são imensamente valorizadas!
+Beyond replicating these core functions, Libft also introduces additional utilities for memory management, array searching and sorting, string manipulation, basic math operations, and file handling.
 
-<h2>Funções desenvolvidas :</h2>
+Completing this project requires a solid understanding of fundamental programming concepts — conditional logic, loops, and data structures. The main goal is to build a deeper understanding of low-level C operations while sharpening problem-solving and programming skills. Every function in Libft was built with efficiency and precision in mind, strictly following 42's coding standards (the *Norm*).
 
-### Funções de &lt;ctype.h&gt;:
+Feel free to explore the repository, test the code, and integrate these functions into your own projects. If you run into any issues or have ideas for improvements, contributions are always welcome!
 
-- **[ft_isalpha](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isalpha.c)** - Verifica se um caractere é alfabético.
-- **[ft_isdigit](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isdigit.c)** - Verifica se um caractere é um dígito (0 a 9).
-- **[ft_isalnum](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isalnum.c)** - Verifica se um caractere é alfanumérico.
-- **[ft_isascii](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isascii.c)** - Verifica se um caractere está no conjunto ASCII.
-- **[ft_isprint](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isprint.c)** - Verifica se um caractere é imprimível.
-- **[ft_toupper](https://github.com/debsalbornoz/libft/blob/main/libft/ft_toupper.c)** - Converte letras minúsculas em maiúsculas.
-- **[ft_tolower](https://github.com/debsalbornoz/libft/blob/main/libft/ft_tolower.c)** - Converte letras maiúsculas em minúsculas.
+## Table of Contents
 
-### Funções de &lt;string.h&gt;:
+- [Functions](#functions)
+  - [`<ctype.h>` Functions](#ctypeh-functions)
+  - [`<string.h>` Functions](#stringh-functions)
+  - [`<stdlib.h>` Functions](#stdlibh-functions)
+  - [Additional Functions](#additional-functions)
+- [How to Use](#how-to-use)
+  - [Requirements](#requirements)
+  - [Instructions](#instructions)
 
-- **[ft_strlen](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlen.c)** - Calcula o comprimento da string s, excluindo o byte nulo terminador.
-- **[ft_memset](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memset.c)** - Preenche os primeiros n bytes da área de memória apontada por s com o byte constante c.
-- **[ft_bzero](https://github.com/debsalbornoz/libft/blob/main/libft/ft_bzero.c)** - Apaga os dados nos n bytes da memória a partir da localização apontada por s, escrevendo zero nessa área.
-- **[ft_memcpy](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memcpy.c)** - Copia n bytes da área de memória src para a área de memória dest. As áreas de memória não devem se sobrepor.
-- **[ft_memmove](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memmove.c)** - Copia n bytes da área de memória src para a área de memória dest. As áreas de memória podem se sobrepor.
-- **[ft_strlcpy](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlcpy.c)** - Copia até um tamanho especificado da string fonte para a string de destino.
-- **[ft_strlcat](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlcat.c)** - Concatena strings até um tamanho especificado.
-- **[ft_strchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strchr.c)** - Retorna um ponteiro para a primeira ocorrência do caractere c na string s.
-- **[ft_strrchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strrchr.c)** - Localiza a última ocorrência de c (convertido para um char) na string apontada por s.
-- **[ft_strncmp](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strncmp.c)** - Compara os primeiros n bytes de s1 e s2.
-- **[ft_memchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memchr.c)** - Analisa os primeiros n bytes da área de memória apontada por s para a primeira instância de c.
-- **[ft_memcmp](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memcmp.c)** - Compara os primeiros n bytes das áreas de memória s1 e s2.
-- **[ft_strnstr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strnstr.c)** - Localiza a primeira ocorrência de uma substring na string.
-- **[ft_strdup](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strdup.c)** - Duplica uma string.
+## Functions
 
-### Funções de &lt;stdlib.h&gt;:
+### `<ctype.h>` Functions
 
-- **[ft_atoi](https://github.com/debsalbornoz/libft/blob/main/libft/ft_atoi.c)** - Converte uma string em um int.
-- **[ft_calloc](https://github.com/debsalbornoz/libft/blob/main/libft/ft_calloc.c)** - Aloca memória e inicializa a memória com zero.
+| Function | Description |
+|----------|-------------|
+| **[ft_isalpha](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isalpha.c)** | Checks whether a character is alphabetic. |
+| **[ft_isdigit](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isdigit.c)** | Checks whether a character is a digit (0–9). |
+| **[ft_isalnum](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isalnum.c)** | Checks whether a character is alphanumeric. |
+| **[ft_isascii](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isascii.c)** | Checks whether a character belongs to the ASCII set. |
+| **[ft_isprint](https://github.com/debsalbornoz/libft/blob/main/libft/ft_isprint.c)** | Checks whether a character is printable. |
+| **[ft_toupper](https://github.com/debsalbornoz/libft/blob/main/libft/ft_toupper.c)** | Converts lowercase letters to uppercase. |
+| **[ft_tolower](https://github.com/debsalbornoz/libft/blob/main/libft/ft_tolower.c)** | Converts uppercase letters to lowercase. |
 
-### Funções adicionais:
+### `<string.h>` Functions
 
-- **[ft_substr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_substr.c)** - Aloca e retorna uma substring.
-- **[ft_strjoin](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strjoin.c)** - Aloca e retorna uma nova string, que é o resultado da concatenação de 's1' e 's2'.
-- **[ft_strtrim](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strtrim.c)** - Aloca e retorna uma cópia de 's1' com os caracteres especificados em 'set' removidos do início e do fim da string.
-- **[ft_split](https://github.com/debsalbornoz/libft/blob/main/libft/ft_split.c)** - Aloca e retorna um array de strings obtidas dividindo a string usando um delimitador.
-- **[ft_itoa](https://github.com/debsalbornoz/libft/blob/main/libft/ft_itoa.c)** - Aloca e retorna uma string representando o inteiro recebido como argumento.
-- **[ft_strmapi](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strmapi.c)** - Aplica a função 'f' a cada caractere da string 's', passando seu índice como primeiro argumento para criar uma nova string resultante das aplicações sucessivas de 'f'.
-- **[ft_striteri](https://github.com/debsalbornoz/libft/blob/main/libft/ft_striteri.c)** - Aplica a função 'f' a cada caractere da string passada como argumento.
-- **[ft_putchar_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putchar_fd.c)** - Envia um caractere para o descritor de arquivo fornecido.
-- **[ft_putstr_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putstr_fd.c)** - Envia uma string para o descritor de arquivo fornecido.
-- **[ft_putendl_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putendl_fd.c)** - Envia uma string para o descritor de arquivo fornecido seguida de uma nova linha.
-- **[ft_putnbr_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putnbr_fd.c)** - Envia um inteiro para o descritor de arquivo fornecido.
+| Function | Description |
+|----------|-------------|
+| **[ft_strlen](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlen.c)** | Calculates the length of string `s`, excluding the terminating null byte. |
+| **[ft_memset](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memset.c)** | Fills the first `n` bytes of the memory area pointed to by `s` with the constant byte `c`. |
+| **[ft_bzero](https://github.com/debsalbornoz/libft/blob/main/libft/ft_bzero.c)** | Erases `n` bytes of memory starting at `s`, writing zeros into that area. |
+| **[ft_memcpy](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memcpy.c)** | Copies `n` bytes from memory area `src` to memory area `dest` (must not overlap). |
+| **[ft_memmove](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memmove.c)** | Copies `n` bytes from memory area `src` to memory area `dest` (may overlap). |
+| **[ft_strlcpy](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlcpy.c)** | Copies up to a specified size from the source string to the destination string. |
+| **[ft_strlcat](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strlcat.c)** | Concatenates strings up to a specified size. |
+| **[ft_strchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strchr.c)** | Returns a pointer to the first occurrence of character `c` in string `s`. |
+| **[ft_strrchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strrchr.c)** | Finds the last occurrence of `c` in the string pointed to by `s`. |
+| **[ft_strncmp](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strncmp.c)** | Compares the first `n` bytes of `s1` and `s2`. |
+| **[ft_memchr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memchr.c)** | Scans the first `n` bytes of the memory area pointed to by `s` for the first instance of `c`. |
+| **[ft_memcmp](https://github.com/debsalbornoz/libft/blob/main/libft/ft_memcmp.c)** | Compares the first `n` bytes of memory areas `s1` and `s2`. |
+| **[ft_strnstr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strnstr.c)** | Locates the first occurrence of a substring within a string. |
+| **[ft_strdup](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strdup.c)** | Duplicates a string. |
 
-## Como usar
+### `<stdlib.h>` Functions
 
-### Requisitos:
+| Function | Description |
+|----------|-------------|
+| **[ft_atoi](https://github.com/debsalbornoz/libft/blob/main/libft/ft_atoi.c)** | Converts a string to an `int`. |
+| **[ft_calloc](https://github.com/debsalbornoz/libft/blob/main/libft/ft_calloc.c)** | Allocates memory and initializes it to zero. |
 
-Este projeto é escrito em C e precisa do compilador cc ou gcc.
+### Additional Functions
 
-### Instruções
+| Function | Description |
+|----------|-------------|
+| **[ft_substr](https://github.com/debsalbornoz/libft/blob/main/libft/ft_substr.c)** | Allocates and returns a substring. |
+| **[ft_strjoin](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strjoin.c)** | Allocates and returns a new string, the result of concatenating `s1` and `s2`. |
+| **[ft_strtrim](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strtrim.c)** | Allocates and returns a copy of `s1` with the characters in `set` trimmed from the start and end. |
+| **[ft_split](https://github.com/debsalbornoz/libft/blob/main/libft/ft_split.c)** | Allocates and returns an array of strings obtained by splitting a string using a delimiter. |
+| **[ft_itoa](https://github.com/debsalbornoz/libft/blob/main/libft/ft_itoa.c)** | Allocates and returns a string representing the integer passed as an argument. |
+| **[ft_strmapi](https://github.com/debsalbornoz/libft/blob/main/libft/ft_strmapi.c)** | Applies function `f` to each character of string `s`, passing its index as the first argument, creating a new resulting string. |
+| **[ft_striteri](https://github.com/debsalbornoz/libft/blob/main/libft/ft_striteri.c)** | Applies function `f` to each character of the given string. |
+| **[ft_putchar_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putchar_fd.c)** | Outputs a character to the given file descriptor. |
+| **[ft_putstr_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putstr_fd.c)** | Outputs a string to the given file descriptor. |
+| **[ft_putendl_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putendl_fd.c)** | Outputs a string to the given file descriptor, followed by a newline. |
+| **[ft_putnbr_fd](https://github.com/debsalbornoz/libft/blob/main/libft/ft_putnbr_fd.c)** | Outputs an integer to the given file descriptor. |
 
-- Clone o repositório:
+## How to Use
+
+### Requirements
+
+This project is written in C and requires a `cc` or `gcc` compiler.
+
+### Instructions
+
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/debsalbornoz/libft.git
     ```
 
-- Execute:
+2. Build the library:
 
-    - `make all` - compila todos os arquivos e cria a biblioteca (libft.a).
-    - `make re` - remove todos os arquivos e recompila o projeto.
-    - `make clean` - remove os arquivos temporários.
-    - `make fclean` - remove todos os arquivos criados, mantendo apenas os arquivos originais.
+    | Command | Description |
+    |---------|-------------|
+    | `make all` | Compiles all files and creates the library (`libft.a`). |
+    | `make re` | Removes all files and recompiles the project. |
+    | `make clean` | Removes temporary object files. |
+    | `make fclean` | Removes all generated files, keeping only the original source. |
 
-- Para usar a biblioteca em seu projeto, inclua:
+3. Include the library in your project:
 
     ```c
     #include "libft.h"
     ```
+
+---
+
+<p align="center">Built as part of the 42 curriculum 🖥️</p>
